@@ -1,0 +1,31 @@
+{
+  "name": "juriscrape-tjal-esaj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev --poll src/app.ts",
+    "build": "tsc",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@juriscrape/common": "^1.0.5",
+    "@juriscrape/driver": "^1.0.11",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "git-commit-msg-linter": "^5.0.8",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "ts-node-dev": "^2.0.0"
+  }
+}
